@@ -1,7 +1,58 @@
 # Site settings
-title: Modern Blog
-description: Modern-Blog A Elegant template for Jekyll
-keywords: Modern, Blogging, Fun
-author: Wferr
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title: MyBetterWeb
+slogan: "Web Development | eCommerce | Digital Marketing | Video Editing"
+description: "We build seo-optimized and mobile-friendly websites designed to perform across all devices. Generate leads or sales from customers on desktop computers or their phones."
+keywords: "digital marketing service in malaysia, website development in malaysia, web design in nepal, holiday video editing in malaysia, drone video editing in nepal, email marketing in malaysia, search engine optimization service in nepal, facebook ads service in nepal, google amp website in malaysia"
+logo: img/logo-transparent.png
+baseurl: ""
+url: "https://mybetterweb.site"
+permalink : pretty
+
+# jekyll gems
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# compress html
+encoding: "utf-8"
+compress_html:
+  clippings: all
+  comments: [ "<!-- ", " -->" ]
+
+# metadata
+author: Peranakan Francis
+social:
+  name: MyBetterWeb
+  links:
+    - https://twitter.com/peranakafrancis
+    - https://www.facebook.com/mybetterweb.site
+    - https://www.linkedin.com/in/peranakafrancis
+    - https://instagram.com/mybetterweb.site
+    - https://github.com/peranakafrancis
+    - https://keybase.io/peranakafrancis
+    - https://wa.me/9779823034701
+    - https://m.me/mybetterweb.site
+twitter:
+  username: peranakanfrancis
+  card: summary
+facebook:
+  app_id: 150284722314875
+  admins: 611725499
+
+# site configuration
+future: true
+profile: true
+livereload: true
+time_zone: Asia/Kathmandu
+destination: public
+source:
+markdown: kramdown
+kramdown:
+  hard_wrap : false
+  input: GFM
+  auto_ids: true
+  syntax_highlighter_opts:
+      disable : true
+highlighter: none
+excludes: [ README.md, node_modules, Gemfile*, "LICENSE", ]
