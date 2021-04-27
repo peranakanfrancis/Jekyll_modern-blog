@@ -5,7 +5,7 @@ description: "We build seo-optimized and mobile-friendly websites designed to pe
 keywords: "digital marketing service in malaysia, website development in malaysia, web design in nepal, holiday video editing in malaysia, drone video editing in nepal, email marketing in malaysia, search engine optimization service in nepal, facebook ads service in nepal, google amp website in malaysia"
 logo: img/logo-transparent.png
 baseurl: ""
-url: "https://mybetterweb.site"
+url: "https://peranakanfrancis.github.io/mybetterwebsite"
 permalink : pretty
 
 # jekyll gems
@@ -21,7 +21,7 @@ compress_html:
   comments: [ "<!-- ", " -->" ]
 
 # metadata
-author: Peranakan Francis
+author: Francis Tan
 social:
   name: MyBetterWeb
   links:
@@ -31,7 +31,7 @@ social:
     - https://instagram.com/mybetterweb.site
     - https://github.com/peranakafrancis
     - https://keybase.io/peranakafrancis
-    - https://wa.me/9779823034701
+    - https://wa.link/pf0lud
     - https://m.me/mybetterweb.site
 twitter:
   username: peranakanfrancis

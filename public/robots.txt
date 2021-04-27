@@ -1,1 +1,1 @@
-Sitemap: https://mybetterweb.site/sitemap.xml
+Sitemap: https://peranakanfrancis.github.io/mybetterwebsite/sitemap.xml
